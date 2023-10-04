@@ -1,0 +1,9 @@
+Solution 1:
+- Create an empty array of k size called arr_k
+- Populate arr_k from arr[0] to k
+- use a for loop to check if arr[i] != arr_k[i]
+    - if yes: continue
+    - if no: add arr[i] to a new array called arr_missing
+- return the arr_missing[k]
+
+Solution 2:
